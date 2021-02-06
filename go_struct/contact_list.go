@@ -38,8 +38,8 @@ var contactList = []contact{
 	newcontact("Yuldashev", "Asadbek", 938554784),
 }
 
-// func main() {
-// 	for _, i := range contactList {
-// 		fmt.Println(i.getContact())
-// 	}
-// }
+func main() {
+	for _, i := range contactList {
+		fmt.Println(i.getContact())
+	}
+}
