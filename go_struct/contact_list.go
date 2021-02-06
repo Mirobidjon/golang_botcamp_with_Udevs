@@ -7,10 +7,10 @@ import (
 type contact struct {
 	firstName string
 	lastName  string
-	number    int
+	number    int64
 }
 
-func newContact(firstName, lastName string, number int) contact {
+func newContact(firstName, lastName string, number int64) contact {
 	return contact{
 		firstName: firstName,
 		lastName:  lastName,
@@ -19,7 +19,7 @@ func newContact(firstName, lastName string, number int) contact {
 }
 
 //methods
-func (c *contact) updateNumber(number int) {
+func (c *contact) updateNumber(number int64) {
 	c.number = number
 }
 
