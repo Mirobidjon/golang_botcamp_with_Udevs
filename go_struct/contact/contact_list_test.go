@@ -9,7 +9,7 @@ func TestContact(t *testing.T) {
 		number:    978851887,
 	}
 
-	if contact1.fistName != "Kamolov" {
+	if contact1.firstName != "Kamolov" {
 		t.Errorf("Contact struct don't work! wrong Name")
 	}
 }
