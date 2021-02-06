@@ -38,7 +38,6 @@ func main() {
 
 	book1.setPrice(50)
 	fmt.Println(book1.getInfo())
-
 }
 
 var books = []book{
