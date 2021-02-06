@@ -10,6 +10,6 @@ func TestContact(t *testing.T) {
 	}
 
 	if contact1.fistName != "Kamolov" {
-		t.Errorf("test.go is not work! wrong title")
+		t.Errorf("Contact struct don't work! wrong Name")
 	}
 }
