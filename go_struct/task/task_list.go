@@ -27,6 +27,7 @@ func (c *task) setBody(body string) {
 func (c *task) getTask() string {
 	return fmt.Sprintf("%s\n%s", c.title, c.body)
 }
+
 func main() {
 	a := newTask("N th Prime Number", "You must find n(1 <= n <= 10^9) th prime number in 1 sek")
 	fmt.Println(a.getTask())
