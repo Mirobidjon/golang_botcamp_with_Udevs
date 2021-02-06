@@ -10,7 +10,7 @@ type contact struct {
 	number    int64
 }
 
-func newContact(firstName, lastName string, number int64) contact {
+func newcontact(firstName, lastName string, number int64) contact {
 	return contact{
 		firstName: firstName,
 		lastName:  lastName,
@@ -32,14 +32,14 @@ func (c *contact) getContact() string {
 }
 
 var contactList = []contact{
-	newContact("Parpiyev", "Mirobidjon", 944344143),
-	newContact("Habibullayev", "Begali", 905286368),
-	newContact("Abdumalikov", "Halilullo", 999014533),
-	newContact("Yuldashev", "Asadbek", 938554784),
+	newcontact("Parpiyev", "Mirobidjon", 944344143),
+	newcontact("Habibullayev", "Begali", 905286368),
+	newcontact("Abdumalikov", "Halilullo", 999014533),
+	newcontact("Yuldashev", "Asadbek", 938554784),
 }
 
-func main() {
-	for _, i := range contactList {
-		fmt.Println(i.getContact())
-	}
-}
+// func main() {
+// 	for _, i := range contactList {
+// 		fmt.Println(i.getContact())
+// 	}
+// }
