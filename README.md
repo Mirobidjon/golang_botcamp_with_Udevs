@@ -14,4 +14,4 @@ Bootcamp
     2. [Wrote my first REST API with Go (fiber)](https://github.com/Mirobidjon/golang_botcamp_with_Udevs/tree/main/Rest_API_GO)
 3. **_My Personal Projects_**
     1. [Contacts](https://github.com/Mirobidjon/Contacts)
-    2. [Students Course app ](https://github.com/Mirobidjon)
+    2. [Students Course app ](https://github.com/Mirobidjon/Course)
