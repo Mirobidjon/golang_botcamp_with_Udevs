@@ -15,3 +15,14 @@ Bootcamp
 3. **_My Personal Projects_**
     1. [Contacts](https://github.com/Mirobidjon/Contacts)
     2. [Students Course app ](https://github.com/Mirobidjon)
+
+
+
+Student can 
+* Create book           ("/api/book") POST
+* READ a book           ("/api/book/:id") GET
+* Read all books        ("api/book") GET
+* Update book           ("api/book/:id") PUT
+* Delete book           ("api/book/:id) DELETE
+* Read his group course ("api/course/:id") GET
+* Read his group all course ("api/course/:id") GET
